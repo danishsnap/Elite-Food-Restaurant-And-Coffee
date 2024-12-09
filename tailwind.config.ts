@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        yellowish: "#FF9D0D",
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        greatVibes: ['"Great Vibes"', 'cursive'],
       },
     },
   },
